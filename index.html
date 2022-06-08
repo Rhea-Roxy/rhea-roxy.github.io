@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Demo WEBSITE</title>
-    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <title>Rhea Roxy - Portfolio</title>
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="fixed.css" />
-    <link rel="shortcut icon" href="img/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/fixed.css" />
+    <link rel="shortcut icon" type = "image/x-icon" href="image/favicon-32x32.png">
   </head>
 
   <body data-spy="scroll" data-target="#navbarResponsive">
@@ -15,7 +15,7 @@
     <div id="home">
       <!-- Navigation -->
       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#"><img src="img/nuno.png" alt="" /></a>
+        <a class="navbar-brand" href="#"><img src="image/logo.jpg" alt="" /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,10 +30,16 @@
               <a href="#home" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#course" class="nav-link">Course Id</a>
+              <a href="#aboutme" class="nav-link">About Me</a>
             </li>
             <li class="nav-item">
-              <a href="#features" class="nav-link">Features</a>
+              <a href="#projects" class="nav-link">Projects and Coursework</a>
+            </li>
+            <li class="nav-item">
+              <a href="C:\Users\nehar\OneDrive\Desktop\website\32. Nuno Theme Starter Files\resume.html" class="nav-link">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a href="#resources" class="nav-link"> Additional Experience</a>
             </li>
             <li class="nav-item">
               <a href="#contact" class="nav-link"> Contact</a>
@@ -44,75 +50,69 @@
       <!-- End Navigation -->
       <!-- Start Landing section -->
       <div class="landing">
+
         <div class="home-wrap">
           <div class="home-inner"></div>
         </div>
       </div>
       <div class="caption text-center">
-        <h1>Demo Webpage</h1>
-        <h3>CSS, HTML, Bootstrap</h3>
-        <p class="btn btn-outline-light" href="#contact">Let's Go!</p>
+        <h1>RHEA ROXY</h1>
+        <h3>CS Portfolio</h3>
       </div>
       <!-- End Landing Page -->
     </div>
     <!-- Home End -->
 
-    <!--  Course Start-->
-    <div id="course" class="offset">
-      <div class="col-12 narrow text-center">
-        <h1>Hello Dummy</h1>
-        <p class="lead">Hello this is demo text</p>
-        <a
-          class="btn btn-secondary btn-md"
-          href="https://figuringitoutwithme.wordpress.com/"
-          target="blank"
-          >My website</a
-        >
+<!--About Me-->
+<div class="row justify-content-center">
+  <div class="col-md-6 clients ">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="image/rheaportfoliopic.JPG" />
+      </div>
+      <div class="col-md-8">
+        <blockquote>
+          Bachelor of Science in Computer Science, Minor in Mathematicsw
+          <br> The Catholic University of America
+          <hr class="clients= hr" />
+          <cite> Rhea Roxy</cite>
+        </blockquote>
       </div>
     </div>
-    <!-- Course End -->
+  </div>
+</div>
+<div id="aboutme" class="offset">
+  <div class="col-12 narrow text-center">
+    
+    <h1>About Me</h1>
+    <div class="heading-underline"></div>
+    <p class="lead">I am a passionate individual and believe that without a strong mission it is impossible to achieve greatness. I am constantly looking for new challenges to expand my knowledge, be it working on a new project or taking up a new course in an area that I am passionate about. 
+      I have experience in programming in languages such as Java, Python as well as C. I have experience working with Google Cloud and as a part of my degree I have worked with different database technologies. Being fluent in three languages, English, Hindi and Malayalam, shows that I can work with a diverse group of people and that I am always open to learning new things. Working toward a Minor in Entrepreneurship has broadened my knowledge and perspective about opportunities in the world. It allows me to think and act like an entrepreneur and to drive business and innovation, along with my passion for Computer Science</p>
+    
+  </div>
+</div>
 
-    <!--  Start feature  Start-->
-    <div id="features" class="offset">
+<!-- About Me end-->
+
+    <!--  Start Projects and Coursework  Start-->
+    <div id="projects" class="offset">
       <!-- start of jumbotron -->
       <div class="jumbotron">
         <div class="narrow">
           <!-- start of narrow -->
-          <div class="col-12 text-center">
-            <h3 class="heading">Features</h3>
+          <div class="col-12 narrow text-center">
+            <h1>Projects and Coursework</h1>
             <div class="heading-underline"></div>
+            <p class="lead">Check out my latest projects and coursework on my Github Profile!</p>
+            <a
+              class="btn btn-secondary btn-md"
+              href="https://github.com/Rhea-Roxy"
+              target="blank"
+              >Github Profile</a
+            >
           </div>
-          <div class="row text-center">
-            <div class="col-md-4">
-              <div class="feature">
-                <i
-                  class="fas fa-play-circle fa-4x"
-                  data-fa-transform="shrink-3 up-5"
-                ></i>
-                <h3>Custom Animation</h3>
-                <p>Hello this is demo text</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="feature">
-                <i
-                  class="fas fa-sliders-h fa-4x"
-                  data-fa-transform="shrink-3 up-5"
-                ></i>
-                <h3>Slider</h3>
-                <p>Hello this is demo text</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="feature">
-                <i
-                  class="fas fa-play-circle fa-4x"
-                  data-fa-transform="shrink-3 up-5"
-                ></i>
-                <h3>Contact us</h3>
-                <p>Hello this is demo textp</p>
-              </div>
-            </div>
+          
+          
           </div>
           <!-- end of row -->
         </div>
@@ -127,39 +127,94 @@
       <div class="fixed-background">
         <div class="row dark text-center">
           <div class="col-12">
-            <h3 class="heading">Built with care</h3>
+            <h3 class="heading">additional experience</h3>
             <div class="heading-underline"></div>
           </div>
-          <div class="col-md-4">
+
+          <div class="col-md-6">
             <div class="feature">
-              <h3>HTML 5</h3>
+              <h3>Product Management Intern, humanID</h3>
               <i
-                class="fas fa-play-circle fa-3x"
+                class="fas fa-gem fa-3x"
                 data-fa-transform="shrink-3 up-5"
               ></i>
-              <p>Hello this is demo text</p>
+              <p> Worked closely with a team software developers and product manager to implement product features
+                ● Interacted directly with the founders to outline product’s vision, roadmap, requirements.
+                ● Implemented Scrum framework, while integrating knowledge of Figma and MySQL</p>
             </div>
           </div>
-          <div class="col-md-4">
+
+          <div class="col-md-6">
             <div class="feature">
+              <h3>Research Assistant, Mathematics Department</h3>
               <i
-                class="fas fa-play-circle fa-4x"
+                class="fas fa-user-astronaut fa-3x"
                 data-fa-transform="shrink-3 up-5"
               ></i>
-              <h3>Custom Animation</h3>
-              <p>Hello this is demo text</p>
+              <p> Part of NSF E-SHARP (Enhancing student help-seeking behavior and reinforcing problem solving skills) team.
+                Tabling as part of the Mathematics Department, to increase outreach to prospective students and parents for the Scholarship for the Summer precalc course
+                ● Helped with note taking during focus groups, tracking registration and consent forms. 
+                ● Connected with several offices on campus, for data collection and analysis from surveys. 
+                 Assisted in creating and maintaining website for the project, and marketing efforts on social media and CUA outlets.</p>
             </div>
           </div>
-          <div class="col-md-4">
+
+          <div class="col-md-6">
             <div class="feature">
+              <h3>Web Development Intern, The Sparks Foundation</h3>
               <i
-                class="fas fa-play-circle fa-4x"
+                class="fas fa-dragon fa-3x"
                 data-fa-transform="shrink-3 up-5"
               ></i>
-              <h3>Custom Animation</h3>
-              <p>Hello this is demo text</p>
+              
+              <p>● Took part in the training was assigned in creating a website with an integrated payment gateway using Razorpay, picked from a total of 5 projects assigned for Mobile and Web Development Interns.
+                ● Applied knowledge of HTML, CSS to create a responsive webpage 5 days ahead of schedule
+                ● Promoted the program on social media, allowing 5+ students to enroll.</p>
             </div>
           </div>
+
+          <div class="col-md-6">
+            <div class="feature">
+              <h3>Event Head and Coordinator, Student Welfare Office</h3>
+              <i
+                class="fas fa-meteor fa-3x"
+                data-fa-transform="shrink-3 up-5"
+              ></i>
+              <p> Organized and executed 10+ events including Inter/Intra University events by collaborating with over 20 people from other campuses.
+                ● Lead teams with over 12 leaders in an International Level Fest organized by Christ University, online.
+                ● Master of Ceremony for 10+ events held across the academic year, assigned roles for juniors. Oversaw the events and delegated tasks in case of emergencies, both online and offline.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="feature">
+              <h3>Research Assistant, Bio Inspired - Advanced Computing Laboratory</h3>
+              <i
+                class="fas fa-fingerprint fa-3x"
+                data-fa-transform="shrink-3 up-5"
+              ></i>
+              <p>Directed Study under Prof. Bui, understanding in-depth the use of DNA and RNA molecules in Computing and Nanotechnology.
+              Researching on DNA and RNA molecules and coding solutions to improve efficiency.
+             ● Finding required protein sequence among the rest of the DNA sequences.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="feature">
+              <h3>Coordinator and Operations Assistant</h3>
+              <i
+                class="fas fa-dharmachakra fa-3x"
+                data-fa-transform="shrink-3 up-5"
+              ></i>
+              <p>  Coordinated assignments with pro staff and a group of over 20+ students 
+                ● Corresponded with external conference groups regarding summer operations, and conference/intern housing.
+                ● Responsible for training students on information and standards for linen operations during the summer, point of 
+                contact for issues and questions.
+                ● In charge of maintaining decorum in the buildings within campus.</p>
+            </div>
+          </div>
+
+
         </div>
         <!--end row dark -->
         <div class="fixed-wrap">
@@ -171,67 +226,14 @@
 
     <!-- End Resources Section -->
 
-    <!-- client -->
-    <div id=" clients" class="offset"></div>
-    <div class="jumbotron">
-      <div class="col-12 text-center">
-        <h3 class="heading">CLients</h3>
-        <div class="heading-underline"></div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6 clients">
-          <div class="row">
-            <div class="col-md-4">
-              <img src="img/client1.png" alt="client1" />
-            </div>
-            <div class="col-md-8">
-              <blockquote>
-                <i class="fas fa-quote-left"></i>
-                this is the paragraph
-                <hr class="clients= hr" />
-                <cite>&#8212; Eric small buisness</cite>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 clients">
-          <div class="row">
-            <div class="col-md-4">
-              <img src="img/client2.png" alt="client1" />
-            </div>
-            <div class="col-md-8">
-              <blockquote>
-                <i class="fas fa-quote-left"></i>
-                hey there this si the paragraph
-                <hr class="clients= hr" />
-                <cite>&#8212; Rose small buisness</cite>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 narrow text-center">
-        <p class="lead">This is the wanting to learn more part</p>
-        <a
-          class="btn btn-secondary btn-md"
-          href="https://figuringitoutwithme.wordpress.com/"
-          target="blank"
-          >Bootstrap yes</a
-        >
-      </div>
-    </div>
-
-    <!-- end client -->
 
     <!--  Start contact  Start-->
     <div id="contact" class="offset">
       <footer>
         <div class="row justify-content-center">
           <div class="col-md-5 text-center">
-            <img src="img/nuno.png" alt="" />
-            <p>this is the para before the contact info</p>
+            <img src="C:\Users\nehar\OneDrive\Desktop\website\32. Nuno Theme Starter Files\Nuno Theme Starter Files\image\logo.png" alt="" />
+            <p></p>
             <strong>Contact Information</strong>
             <p>roxy@cua.edu</p>
             <a href="" target="_blank"
